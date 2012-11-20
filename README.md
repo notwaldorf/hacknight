@@ -1,4 +1,28 @@
-hacknight
+Montreal All-Girl Hack Night
 =========
 
-Montreal All-Girl Hack Night
+When/Where
+----------
+TBD
+
+You should come if
+-----------
+you're a woman || you like writing code || you want to write code around / hang out with other women who write code
+
+Who we are
+-----------
+
+We're female developers in Montreal. We decided that Montreal needs another event for female developers to hang out, talk technology, and hack on cool projects.
+
+Bring yourself, your vexing technical problems, and your expertise!  If you feel like coding, bring a laptop. We provide food, internet and witty banter.
+
+If you're interested in giving a talk at a future meetup or have any other suggestions, questions, or photos of cats you'd like to share, <a href="mailto:todo-fake-email@example.com">email us</a>.
+
+Contact us
+--------
+mailto:todo-fake-email@example.com
+
+
+<3,
+---
+monica and julia
