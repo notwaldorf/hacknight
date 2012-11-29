@@ -51,6 +51,9 @@ hr {
 span.faq-question {
   font-weight: bold;
 }
+span.faq-answer {
+  font-weight: normal;
+}
 /* =============================
  *		Copy overrides
  * ============================= */
