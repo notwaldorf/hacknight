@@ -20,7 +20,8 @@ If you're interested in giving a talk at a future meetup or have any other sugge
 
 Contact us
 --------
-mailto:todo-fake-email@example.com
+mailto:mtlallgirlhacknight@gmail.com
+twitter: https://twitter.com/mtlgirlhackers
 
 
 <3,
