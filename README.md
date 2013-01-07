@@ -3,7 +3,7 @@ Montreal All-Girl Hack Night
 
 When/Where
 ----------
-When: Wednesday, 12 December 2012 from 6:30 PM to 9:00 PM (EST)
+When: Tuesday, 22 January 2013 from 6:30 PM to 9:00 PM (EST)
 
 Where: Notman House, 51 Sherbrooke Ouest, Montreal, Quebec. Directions [here](http://notman.org/en/contact/)
 
