@@ -11,23 +11,12 @@ body {
 	width: 100%;
 	background-color: #f3f3f0;
 	font-family: "Open Sans Condensed", sans-serif;
-	border-top: 10px solid #eb4c27;
-	text-shadow: none;
+	text-shadow: white 0px 1px 0px
 }
 
 #container {
 	min-height: 100%;
 	position: relative;
-}
-
-#nav{
-	font-size: 18px; 
-	font-weight: 700; 
-	text-transform: uppercase; 
-	text-shadow: none;
-	padding-top: 0;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 
 ul.links{
@@ -83,10 +72,10 @@ hr {
 	text-shadow: 0px 0px 1px #a19c9b;
 }
 
-span.faq-question {
+.faq-question {
   font-weight: bold;
 }
-span.faq-answer {
+.faq-answer {
   font-weight: normal;
 }
 
@@ -134,41 +123,60 @@ h4 {
 	text-shadow: none;
 }
 
+
+
 	
 /* =============================
- *		Header nav
+ *		Top nav
  * ============================= */
-
-.wide {
-	width: 50%;
-}
-.a-fourth {
-	margin-top: 70px;
-	width: 12%;
-}
-.border {
-	border-left: 4px #e0d9cb solid;
+nav {
+  background-color: #eb4c27;
 }
 
-ul.links li{
-	float:left;
-	list-style: none;
-	font-size: 17px; 
-	font-weight: bold;
-	color: black; 
-	text-align: center;
-}
-ul.links li a:link, ul.links li a:visited{
-	display:block;
-	color: black;
-	text-decoration: none;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a0a0a0;
 }
 
-ul.links li a:hover {
-	color: #eb4c27;
-	text-decoration: none;
-	border-bottom: none;
+nav li {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #FFF;
+  text-shadow: #a0a0a0 0px -1px 0px;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: #FFF;
+  /* wooohoo transitions on hover */
+  -webkit-transition: color 0.15s linear;
+  -moz-transition: color 0.15s linear;
+  -o-transition: color 0.15s linear;
+  -ms-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+}
+
+nav a:hover {
+  color: #000;
+  text-shadow: none;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+nav .active {
+	background-color: #D44423;
+}
+
 
 /* =============================
  *		Footer
