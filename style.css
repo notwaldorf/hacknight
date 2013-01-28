@@ -19,19 +19,12 @@ body {
 	position: relative;
 }
 
-ul.links{
-	list-style-type:none;
-	padding:0;
-	overflow:hidden;
-	height: 170px;
-}
-
 #content {
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 500px;
-	padding-bottom: 160px;   /* footer + bonus space. what's up hacks */
+	padding-bottom: 190px;   /* footer + bonus space. what's up hacks */
 }
 
 #footer { 
@@ -39,7 +32,7 @@ ul.links{
 	position:absolute;
 	bottom:0;  
    	width: 100%;
-   	height: 140px;
+   	height: 180px; /* footer + nav bar. mystery css. */
 }
 
 hr {
@@ -131,6 +124,8 @@ h4 {
  * ============================= */
 nav {
   background-color: #eb4c27;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a0a0a0;
 }
 
 nav ul {
@@ -138,8 +133,6 @@ nav ul {
   margin: 0;
   padding: 0;
   color: #fff;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #a0a0a0;
 
   margin-left: auto;
   margin-right: auto;
