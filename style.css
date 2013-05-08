@@ -276,6 +276,47 @@ h1 a:hover {
  }
 
 /* =============================
+ *		Signup form
+ * ============================= */
+ /* todo: fix this one day. it's the default mailchimp with too much styling */
+#mc_embed_signup {
+	width: 430px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mc_embed_signup .button {
+	background-color: #d95c3d; 
+	border: 0 none; 
+	border-radius:4px; 
+	color: #FFFFFF; 
+	cursor: pointer; 
+	display: inline-block; 
+	font-size:15px; 
+	font-weight: bold; 
+	height: 32px; 
+	line-height: 32px; 
+	margin: 0 5px 10px 0; 
+	padding:0; 
+	text-align: center; 
+	vertical-align: top; 
+}
+#mc_embed_signup .button:hover {background-color:#E17D64;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input.email { 
+	padding:8px 0; 
+	margin-right: 20px; 
+	text-indent:5px; 
+	width:300px;
+	float: left;
+}
+#mc_embed_signup input.button {
+	display:block; 
+	float: left;
+	width:100px; 
+}
+
+
+/* =============================
  *		Clears
  * ============================= */
 
