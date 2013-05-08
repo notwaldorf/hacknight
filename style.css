@@ -10,7 +10,8 @@ html, body {
 body {
 	width: 100%;
 	background-color: #f3f3f0;
-	font-family: "Open Sans Condensed", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
 	text-shadow: white 0px 1px 0px
 }
 
@@ -23,7 +24,7 @@ body {
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 500px;
+	width: 700px;
 	padding-bottom: 190px;   /* footer + bonus space. what's up hacks */
 }
 
@@ -72,6 +73,18 @@ hr {
   font-weight: normal;
 }
 
+.french, .english {
+	float:left;
+	display:block;
+	text-align:justify;
+	width: 340px;
+	text-shadow: none;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+}
+.english {
+	margin-right: 20px;
+}
 /* =============================
  *		Copy overrides
  * ============================= */
@@ -115,9 +128,6 @@ h4 {
 .noshadow {
 	text-shadow: none;
 }
-
-
-
 	
 /* =============================
  *		Top nav
@@ -126,6 +136,7 @@ nav {
   background-color: #eb4c27;
   margin-bottom: 20px;
   border-bottom: 1px solid #a0a0a0;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 nav ul {
