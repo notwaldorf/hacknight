@@ -23,7 +23,7 @@ mailto:mtlallgirlhacknight@gmail.com
 
 twitter: https://twitter.com/mtlgirlhackers
 
-mailgroup: https://groups.google.com/forum/?fromgroups#!forum/mtl-girl-hackers
+mailing list: http://mtlallgirlhacknight.ca/mailinglist.html
 
 
 <3,
