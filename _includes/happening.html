@@ -1,0 +1,18 @@
+<div class="centered">
+  <h3> {{ site.when }} </h3>
+  <h4>
+  	<a href="{{ site.where_url }}" target="_blank">@ {{ site.where }} </a>
+  </h4>
+  <br/>
+  {% include deets.html %}
+</div>
+
+<div class="clearfix"></div>
+
+<hr>
+
+{% if site.eventbrite_id %}
+<div style="width:100%; text-align:left;" >
+	<iframe  src="http://www.eventbrite.ca/tickets-external?eid={{site.eventbrite_id}}&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>
+{% endif %}

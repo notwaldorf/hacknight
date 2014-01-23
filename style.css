@@ -73,7 +73,7 @@ hr {
   font-weight: normal;
 }
 
-.french, .english {
+.left, .right {
 	float:left;
 	display:block;
 	text-align:justify;
@@ -82,7 +82,7 @@ hr {
 	font-size: 14px;
 	font-family: "Open Sans", sans-serif;
 }
-.english {
+.left {
 	margin-right: 20px;
 }
 /* =============================

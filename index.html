@@ -2,20 +2,32 @@
 title: Montreal All-Girl Hack Night
 layout: page
 ---
-<h4 class="centered">The next meetup will be in:</h4>
-<div class="centered">
-  <h3>February!</h3>
-  <h4><a href="mailinglist.html">Sign up to our mailing list to get notified!</a></h4>
 
+{% if site.is_there_a_plan %}
+  {% include happening.html %}
+{% else %}
+  {% include not_happening.html %}
+{% endif %}
+
+{% if site.sponsor_image %}
+<div class="left">
+  <h3 class="centered">You should come if: </h3>
+  <p>you're a woman <span class="orange">&amp;</span> you like writing code <span class="orange">&amp;</span> <br/>
+  you want to write code around / hang out with other women who write code</p>
 </div>
-
-<br/><br/>
+<div class="right centered">
+  <h3>Sponsored by</h3>
+  <a href="{{ site.sponsor_url }}" target="_blank">
+  <img src="{{ site.sponsor_image }}" height="{{ site.sponsor_image_size }}">
+</a>
+</div>
+{% else %}
 <div class="centered">
   <h3 class="centered">You should come if: </h3>
   <p>you're a woman <span class="orange">&amp;</span> you like writing code <span class="orange">&amp;</span> <br/>
   you want to write code around / hang out with other women who write code</p>
 </div>
-
+{% endif %}
 <br/>
 
 <div class="clearfix"></div>
