@@ -7,17 +7,13 @@ html, body {
 	padding: 0;
 	height: 100%;
 }
+
 body {
 	width: 100%;
-	background-color: #f3f3f0;
+	background-color: white;
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	text-shadow: white 0px 1px 0px
-}
-
-#container {
-	min-height: 100%;
-	position: relative;
 }
 
 #content {
@@ -25,24 +21,24 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 700px;
-	padding-bottom: 190px;   /* footer + bonus space. what's up hacks */
 }
 
 #footer { 
-	background-color: #e0d9cb;
+	background-color: black;
+	color: white;
+	text-shadow: none;
 	position:absolute;
 	bottom:0;  
    	width: 100%;
-   	height: 180px; /* footer + nav bar. mystery css. */
+   	text-align: center;
 }
 
 hr {
 	margin-top:20px;
 	margin-bottom: 20px;
 	width: 100%;
-	border-top: 4px solid #e0d9cb;
+	border-top: 1px solid #e0d9cb;
 }
-
 
 /* =============================
  *		Sections
@@ -90,37 +86,24 @@ hr {
  * ============================= */
 h1, h2, h3, h4 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight: 700;
-	color: #453D3E;
+	font-weight: 400;
 	margin: 0px;
 	padding: 0px;
 }
-h1, h2 {
-	font-size: 50px;
-	letter-spacing: 10px;
-	text-transform: uppercase;
-	text-shadow: 4px 4px 0 #c2bebe;	
-}
 
-h2{
+/* Because we use them everywhere badly and we should  fix this. */
+h2, h3 {
 	font-size: 30px;
 }
 
-h3, h4 {
-	margin: 0px;
-	padding: 0px;
-	font-size: 25px;
+h2 {	
 	letter-spacing: 2px;
-	text-shadow: 4px 4px 0 #c2bebe;	
-}
-
-h4 {
-	text-shadow: none;
 }
 
 .orange {
 	color: #eb4c27;
 }
+
 .beige {
 	color: #e0d9cb;
 }
@@ -134,7 +117,6 @@ h4 {
  * ============================= */
 nav {
   background-color: #eb4c27;
-  margin-bottom: 20px;
   border-bottom: 1px solid #a0a0a0;
   font-family: "Open Sans Condensed", sans-serif;
 }
@@ -144,7 +126,6 @@ nav ul {
   margin: 0;
   padding: 0;
   color: #fff;
-
   margin-left: auto;
   margin-right: auto;
   width: 700px;
@@ -163,6 +144,7 @@ nav li {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 nav a:link, nav a:visited {
   text-decoration: none;
   color: #FFF;
@@ -185,63 +167,30 @@ nav .active {
 	background-color: #D44423;
 }
 
-
 /* =============================
- *		Footer
+ *		Title. Weeee
  * ============================= */
-.footer-wrapper {
-	padding-top: 10px;
-	padding-left: 100px;
+.title {
+	color: black;
+	font-family: 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-shadow: white 0px 1px 0px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-.footer-column { 
-	float: left; 
-	width: 33%; 
-}
-	
-.footer-column p, .footer-column a:link, .footer-column a:visited { 
-	color: gray;
-	font-size: 14px;
-	font-style: normal; 
-}
-
-.footer-column h3 { 
-	font-size: 18px; 
-	font-weight: 700; 
-	margin-bottom: 10px; 
-	text-transform: uppercase; 
-	text-shadow: none;
-}
-
-/* =============================
- *		Striketrough title
- * ============================= */
-h2.wif-line{
-	margin-top: 0;
+.title-the {
+	text-transform: uppercase;
+	font-size: 25px;
 	position: relative;
-	font-size: 30px;
-    letter-spacing:10px;
-    color: #eb4c27;
-    text-shadow: none;
-}
-
-h2.wif-line:before {
-	content: "";
-	display: block;
-	border-top: 7px solid #e0d9cb;
-	width: 100%;
-	height: 1px;
-	position: absolute;
-	top: 50%;
-	z-index: 1;
-}
-
-h2.wif-line span {
-	background: #f3f3f0;
-	padding: 0 20px;
-	position: relative;
-	z-index: 5;
-
+	top: -8px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	color: #eb4c27;
 }
 
 /* =============================

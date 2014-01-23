@@ -4,7 +4,7 @@ layout: page
 ---
 looking for some ideas of projects to work on? here's a long list of ideas for inspiration. try any of these in any programming language you want! or, preferably, read this list, say "all these ideas are dumb! i have a way better idea!" and then do that. and maybe do a pull request and update this list :)
 
-h4. programming languages
+h3. programming languages
 
 want to learn something about a new programming language? try doing anything below in one of {go, lisp, clojure, python, ruby, java, c++, c, javascript, haskell, erlang, postscript, perl, prolog, smalltalk, intercal, actionscript}. maybe check out some <a href="http://www.codecademy.com/">codecademy</a> classes.
 
@@ -18,7 +18,7 @@ some kinds of languages you might not have used before:
 * concurrent programming langues: erlang, go
 * assembly languages
 
-h4. music <span class="orange">&amp;</span> animations <span class="orange">&amp;</span> games
+h3. music <span class="orange">&amp;</span> animations <span class="orange">&amp;</span> games
 
 * generate midi files to create music
 * make a simple game -- snake or frogger. javascript/python (using pygame) are good choices for this
@@ -34,7 +34,7 @@ h4. music <span class="orange">&amp;</span> animations <span class="orange">&amp
   apply)
 * write a multiplayer game server
 
-h4. web development
+h3. web development
 
 * make a website using a web framework {django, rails, flask, grails,
   yesod, node, compojure}
@@ -45,7 +45,7 @@ h4. web development
 * display things on a map using google maps or openstreetmap or textile  
 * <a href="https://groups.google.com/forum/?fromgroups=#!topic/comp.sys.mac.programmer.games/sxjw24vp-aq">here</a> is a cool usenet post from 1999 with some ideas
 
-h4. playing with data
+h3. playing with data
 
 * nasa images-of-the-day
 * stm <a href="http://www.stm.info/english/en-bref/a-developpeurs.htm">data</a>  
@@ -59,7 +59,7 @@ h4. playing with data
 * do some of the competitions on <a href="http://www.kaggle.com/">kaggle</a>
 * don't trust google with your data? write a program using <a href="http://www.twilio.com/">twilio</a> to email/text/call you a week before your friends' birthdays
 
-h4. other
+h3. other
 
 * fix an annoying bug in an open source program that you use
 * have a dumb phone instead of a smartphone? find out how they're stored on your phone and find a way to automatically sync them
@@ -70,7 +70,7 @@ h4. other
 * do exercises from <a href="http://mitpress.mit.edu/sicp/">sicp</a>
 * write a jabber/google talk/aim/msn/irc chatbot. that messages you with a new recipe each day. or that reminds you to get up and walk around if you've been online for too long
 
-h4. hardware
+h3. hardware
 
 * make some leds blink using an arduino
 * make a robot!

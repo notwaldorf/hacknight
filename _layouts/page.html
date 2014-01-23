@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="style.css" title="default"> 
@@ -21,47 +21,26 @@
   </ul>
 </nav>
 
-<div id="container">
-
-  <div id="content">
-    <a href="http://mtlallgirlhacknight.ca/">
-      <div class="header-bit">   
-            <h1>Montreal</h1><h1>
-              <!-- need nbsp to counter the letter spacing bug -->
-              </h1><h2 class="wif-line"><span>&nbsp;All-Girl</span></h2>
-            <h1>Hack Night</h1>
-      </div>
-    </a>
-
-    {{content}}
-    
+<div id="content">
+  <a href="http://mtlallgirlhacknight.ca/">
+  <div class="title">
+    Montreal <span class="title-the">all-girl</span> Hacknight
   </div>
+  </a>
 
+  {{content}}
+  
+</div>
 
-  <div id="footer">
-    <div class="footer-wrapper">
-      <div class="footer-column">
-          <h3 class="widget-title">When/Where</h3>
-          <p>{{ site.when }}<br/>
-            <a href="{{ site.where_url }}">{{ site.where }}</a></p>
-      </div>
-
-      <div class="footer-column">
-          <h3 class="widget-title">Get In Touch</h3>
-          <p><a href="https://twitter.com/{{ site.twitter }}">Twitter</a><br>
-          <a href="mailto:{{ site.email }}">E-mail</a><br>
-          <a href="/mailinglist.html">Mailing list</a><br>
-          </p>
-      </div>
-
-      <div class="footer-column">
-          <h3 class="widget-title">Organizers</h3>
-          <p><a href="https://github.com/jvns">Julia</a><br>
-          <a href="https://github.com/notwaldorf">Monica</a></p>
-      </div>
-    </div> <!-- footer wrapper -->
-  </div><!--/#footer-->
-
-</div><!-- container -->
+<div id="footer">
+<p>Contact us: 
+  <a href="https://twitter.com/{{ site.twitter }}">Twitter</a> / 
+  <a href="mailto:{{ site.email }}">E-mail</a> / 
+  <a href="/mailinglist.html">Mailing list</a>
+  &nbsp; ♥ &nbsp; 
+  <a href="https://github.com/jvns">Julia</a> &amp; 
+  <a href="https://github.com/notwaldorf">Monica</a>
+</div>
+  
 </body>
 </html>

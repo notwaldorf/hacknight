@@ -1,14 +1,13 @@
 <div class="centered">
-  <h3> {{ site.when }} </h3>
-  <h4>
-  	<a href="{{ site.where_url }}" target="_blank">@ {{ site.where }} </a>
-  </h4>
+  <h3> Next event: </h3>
+  <h3> <span class="orange"> {{ site.when }} </span> @ 
+  	<a href="{{ site.where_url }}" target="_blank"> {{ site.where }} </a>
+  </h3>
   <br/>
   {% include deets.html %}
 </div>
 
 <div class="clearfix"></div>
-
 <hr>
 
 {% if site.eventbrite_id %}
