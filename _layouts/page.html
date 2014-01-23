@@ -10,37 +10,38 @@
 </head>
 <body>
 
-<nav>
-  <ul>
-    <li><a href="index.html">When?</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="mailinglist.html">Mailing List</a></li>
-    <li><a href="ideas.html">Project ideas</a></li>
-    <li><a href="http://www.flickr.com/groups/2141823@N20/" target="_blank">Photos</a></li>
-  </ul>
-</nav>
+<div id="wrapper">
+  <nav>
+    <ul>
+      <li><a href="index.html">When?</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="mailinglist.html">Mailing List</a></li>
+      <li><a href="ideas.html">Project ideas</a></li>
+      <li><a href="http://www.flickr.com/groups/2141823@N20/" target="_blank">Photos</a></li>
+    </ul>
+  </nav>
 
-<div id="content">
-  <a href="http://mtlallgirlhacknight.ca/">
-  <div class="title">
-    Montreal <span class="title-the">all-girl</span> Hacknight
+  <div id="content">
+    <a href="http://mtlallgirlhacknight.ca/">
+    <div class="title">
+      Montreal <span class="title-the">all-girl</span> Hacknight
+    </div>
+    </a>
+
+    {{content}}
+    
   </div>
-  </a>
 
-  {{content}}
-  
+  <div id="footer">
+  <p>Contact us: 
+    <a href="https://twitter.com/{{ site.twitter }}">Twitter</a> / 
+    <a href="mailto:{{ site.email }}">E-mail</a> / 
+    <a href="/mailinglist.html">Mailing list</a>
+    &nbsp; ♥ &nbsp; 
+    <a href="https://github.com/jvns">Julia</a> &amp; 
+    <a href="https://github.com/notwaldorf">Monica</a>
+  </div>
 </div>
-
-<div id="footer">
-<p>Contact us: 
-  <a href="https://twitter.com/{{ site.twitter }}">Twitter</a> / 
-  <a href="mailto:{{ site.email }}">E-mail</a> / 
-  <a href="/mailinglist.html">Mailing list</a>
-  &nbsp; ♥ &nbsp; 
-  <a href="https://github.com/jvns">Julia</a> &amp; 
-  <a href="https://github.com/notwaldorf">Monica</a>
-</div>
-  
 </body>
 </html>
