@@ -48,7 +48,7 @@ h3. web development
 h3. playing with data
 
 * nasa images-of-the-day
-* stm <a href="http://www.stm.info/english/en-bref/a-developpeurs.htm">data</a>  
+* stm <a href="http://www.stm.info/en/about/developers">data</a>  
 * ville de montreal <a href="http://donnees.ville.montreal.qc.ca/">data</a> (images, bike paths, library books, traffic lights, parking, garbage collection dates, ...)
 * yahoo! <a href="http://developer.yahoo.com/answers/">answers </a> and other yahoo! open <a href="http://developer.yahoo.com/yql/guide/yql-opentables-chapter.html">data</a>
 * github <a href="http://developer.github.com/v3/">data</a>
